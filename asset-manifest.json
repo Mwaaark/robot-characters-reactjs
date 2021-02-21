@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/monsters-rolodex/static/css/main.bc89fe97.chunk.css",
-    "main.js": "/monsters-rolodex/static/js/main.b95cde85.chunk.js",
-    "main.js.map": "/monsters-rolodex/static/js/main.b95cde85.chunk.js.map",
-    "runtime-main.js": "/monsters-rolodex/static/js/runtime-main.0233c931.js",
-    "runtime-main.js.map": "/monsters-rolodex/static/js/runtime-main.0233c931.js.map",
-    "static/js/2.c1d12d7e.chunk.js": "/monsters-rolodex/static/js/2.c1d12d7e.chunk.js",
-    "static/js/2.c1d12d7e.chunk.js.map": "/monsters-rolodex/static/js/2.c1d12d7e.chunk.js.map",
-    "static/js/3.c8b01595.chunk.js": "/monsters-rolodex/static/js/3.c8b01595.chunk.js",
-    "static/js/3.c8b01595.chunk.js.map": "/monsters-rolodex/static/js/3.c8b01595.chunk.js.map",
-    "index.html": "/monsters-rolodex/index.html",
-    "static/css/main.bc89fe97.chunk.css.map": "/monsters-rolodex/static/css/main.bc89fe97.chunk.css.map",
-    "static/js/2.c1d12d7e.chunk.js.LICENSE.txt": "/monsters-rolodex/static/js/2.c1d12d7e.chunk.js.LICENSE.txt"
+    "main.css": "/robot-characters-reactjs/static/css/main.bc89fe97.chunk.css",
+    "main.js": "/robot-characters-reactjs/static/js/main.b95cde85.chunk.js",
+    "main.js.map": "/robot-characters-reactjs/static/js/main.b95cde85.chunk.js.map",
+    "runtime-main.js": "/robot-characters-reactjs/static/js/runtime-main.5162012f.js",
+    "runtime-main.js.map": "/robot-characters-reactjs/static/js/runtime-main.5162012f.js.map",
+    "static/js/2.c1d12d7e.chunk.js": "/robot-characters-reactjs/static/js/2.c1d12d7e.chunk.js",
+    "static/js/2.c1d12d7e.chunk.js.map": "/robot-characters-reactjs/static/js/2.c1d12d7e.chunk.js.map",
+    "static/js/3.c8b01595.chunk.js": "/robot-characters-reactjs/static/js/3.c8b01595.chunk.js",
+    "static/js/3.c8b01595.chunk.js.map": "/robot-characters-reactjs/static/js/3.c8b01595.chunk.js.map",
+    "index.html": "/robot-characters-reactjs/index.html",
+    "static/css/main.bc89fe97.chunk.css.map": "/robot-characters-reactjs/static/css/main.bc89fe97.chunk.css.map",
+    "static/js/2.c1d12d7e.chunk.js.LICENSE.txt": "/robot-characters-reactjs/static/js/2.c1d12d7e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0233c931.js",
+    "static/js/runtime-main.5162012f.js",
     "static/js/2.c1d12d7e.chunk.js",
     "static/css/main.bc89fe97.chunk.css",
     "static/js/main.b95cde85.chunk.js"
