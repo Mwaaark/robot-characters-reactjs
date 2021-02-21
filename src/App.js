@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { CardList } from "./components/card-list/card-list.component";
+import { SearchBox } from "./components/search-box/search-box.component";
 import "./App.css";
 
 class App extends Component {
@@ -18,15 +19,22 @@ class App extends Component {
     );
   }
 
+  handleChange = (e) => {
+    this.setState({ searchField: e.target.value });
+  };
+
   render() {
+    const { robotCharacters, searchField } = this.state;
+    const filteredRobotCharacters = robotCharacters.filter((robotCharacter) =>
+      robotCharacter.name.toLowerCase().includes(searchField.toLowerCase())
+    );
     return (
       <div className="App">
-        <input
-          type="search"
+        <SearchBox
           placeholder="search robot characters"
-          onChange={(e) => this.setState({ searchField: e.target.value })}
+          handleChange={this.handleChange}
         />
-        <CardList robotCharacters={this.state.robotCharacters} />
+        <CardList robotCharacters={filteredRobotCharacters} />
       </div>
     );
   }
