@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/users").then((response) =>
+    fetch("http://localhost:5000/blogs").then((response) =>
       response.json().then((users) => this.setState({ robotCharacters: users }))
     );
   }
@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     const { robotCharacters, searchField } = this.state;
     const filteredRobotCharacters = robotCharacters.filter((robotCharacter) =>
-      robotCharacter.name.toLowerCase().includes(searchField.toLowerCase())
+      robotCharacter.title.toLowerCase().includes(searchField.toLowerCase())
     );
     return (
       <div className="App">
