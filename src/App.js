@@ -13,12 +13,16 @@ class App extends Component {
     };
   }
 
+  // when react puts our components on the page
+  // calls code inside and re-render
   componentDidMount() {
     fetch("https://jsonplaceholder.typicode.com/users").then((response) =>
       response.json().then((users) => this.setState({ robotCharacters: users }))
     );
   }
 
+  // customized func not from Component class
+  // use arrow function for 'this' keyword
   handleChange = (e) => {
     this.setState({ searchField: e.target.value });
   };
